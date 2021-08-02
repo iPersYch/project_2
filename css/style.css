@@ -1,0 +1,149 @@
+*{box-sizing: border-box;
+
+}
+body {
+    background-color: #ffffff;
+
+}
+.container {
+    width: 100%;
+    max-width: 1149px;
+    margin: 0 auto;
+}
+
+.header {
+
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 0 69px 0 ;
+
+}
+
+.header-logo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #000000;
+}
+.header-menu {
+}
+.header-menu a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #989898;
+    text-decoration: none;
+    padding: 0 0 0 25px;
+    transition: font-size 0.1ms;
+}
+
+
+.slider {
+    max-height: 520px;
+    height: 520px;
+    background-color: #ffe1bd;
+    position: relative;
+    margin-bottom: 87px;
+
+
+
+
+}
+
+.slider-column1 {
+    padding: 100px 0 0 0;
+    max-width: 365px;
+    margin: 0 auto;
+}
+
+.slider-column1__item1 {
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 700;
+    color: #000000;
+    text-align: center;
+
+    }
+.slider-column1__item1 span{
+    font-size: 72px;
+}
+.slider-column1__item1:after{
+    content: '';
+    display: block;
+    width: 55px;
+    height: 2px;
+    background-color: #000000;
+    margin: 10px auto 25px;
+}
+
+.slider-column1__item2 {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight:300;
+    color: #000000;
+    margin: 0 auto 80px;
+    text-align: center;
+}
+
+
+.button {
+    background-color: #000000;
+    border-radius: 25px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #ffffff;
+
+}
+
+
+.button_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-column2 {
+    position: absolute;
+    top: 42%;
+    right: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+
+
+}
+
+.slider-column2__button {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    border: black 1px solid;
+    margin:0 29px 17px 0 ;
+}
+
+.slider-column2__button:hover {
+    content: '';
+    width: 15px;
+    height: 15px;
+
+}
+.active {
+    background-color: black;
+}
+
+.header2 {
+    font-family: Montserrat;
+    font-size: 60px;
+    line-height: 48px;
+    font-weight: 100;
+    color: #000000;
+    text-align: center;
+}
