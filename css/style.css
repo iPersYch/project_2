@@ -79,6 +79,7 @@ select {
 
 body {
     background-color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
 
 }
 .container {
@@ -96,16 +97,16 @@ body {
 }
 
 .header-logo {
-    font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     line-height: 24px;
     font-weight: 700;
     color: #000000;
 }
 .header-menu {
+
 }
 .header-menu a {
-    font-family: 'Montserrat', sans-serif;
+    flex: 1 1 auto;
     font-size: 18px;
     font-weight: 300;
     color: #989898;
@@ -134,7 +135,6 @@ body {
 }
 
 .slider-column1__item1 {
-    font-family: Montserrat;
     font-size: 48px;
     font-weight: 700;
     color: #000000;
@@ -154,7 +154,6 @@ body {
 }
 
 .slider-column1__item2 {
-    font-family: Montserrat;
     font-size: 24px;
     font-weight:300;
     color: #000000;
@@ -170,7 +169,6 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-family: Montserrat;
     font-size: 18px;
     line-height: 24px;
     font-weight: 300;
@@ -216,7 +214,6 @@ body {
 }
 
 .header2 {
-    font-family: Montserrat;
     font-size: 60px;
     line-height: 48px;
     font-weight: 100;
@@ -229,29 +226,26 @@ body {
     margin: 99px 0 0 0;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 
 
 }
 .main_img {
-    max-height: 560px;
-    height: 560px;
-    max-width: 560px;
-    width: 100%;
-    background-image: url("https://via.placeholder.com/560x560");
-    background-size: 100%;
-    background-repeat: no-repeat;
+    flex: 0 0 560px;
+    max-width: 100%;
+    margin-bottom: 25px;
 }
 
 .main_info {
+    flex: 1 1 auto;
     flex-direction: column;
     max-width: 490px;
     width: 100%;
-    max-height: 560px;
+    height: 100%;
 
 }
 
 .main_info_header {
-    font-family: Montserrat;
     font-size: 30px;
     font-weight: 300;
     color: #000000;
@@ -259,7 +253,6 @@ body {
 
 }
 .main_info_subheader {
-    font-family: Montserrat;
     color: #000000;
     font-size: 48px;
     font-weight: 700;
@@ -278,7 +271,6 @@ body {
 }
 
 .main p {
-    font-family: Montserrat;
     font-size: 18px;
     font-weight: 300;
     color: #656565;
@@ -290,9 +282,10 @@ body {
 }
 
 .main_info_container {
+
     margin-top: 28px;
-    max-height: 260px;
-    margin-bottom: 49px;
+    max-height: 100%;
+
 
     justify-content: space-between;
 }
@@ -305,10 +298,10 @@ body {
     border-radius: 25px;
     text-align: center;
     padding: 10px 15px;
-    font-family: Montserrat;
     font-size: 18px;
     line-height: 24px;
     font-weight: 300;
     color: #000000;
     text-decoration: none;
+    margin-top: 49px;
 }
