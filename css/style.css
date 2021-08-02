@@ -119,7 +119,7 @@ body {
 .slider {
     max-height: 520px;
     height: 520px;
-    background-color: #ffe1bd;
+    background: linear-gradient(45deg,#ffe1bd,#9f9f9f);
     position: relative;
     margin-bottom: 87px;
 
@@ -320,4 +320,8 @@ body {
     text-decoration: none;
     margin-top: 49px;
     margin-bottom: 25px;
+}
+.info_button:hover{
+    background-color: #656565;
+    color: white;
 }
