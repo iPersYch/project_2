@@ -222,19 +222,29 @@ body {
 }
 
 .main {
-    max-height: 560px;
-    margin: 99px 0 0 0;
+    margin: 99px 0 82px 0;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 
+}
+.main2 {
+    margin: 0 0 82px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 
+}
+.main2 .main_img{
+    order:2;
 }
 .main_img {
     flex: 0 0 560px;
     max-width: 100%;
     margin-bottom: 25px;
+
 }
+
 
 .main_info {
     flex: 1 1 auto;
@@ -276,6 +286,11 @@ body {
     color: #656565;
 
 }
+.main2 p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #656565;
+}
 .main p:nth-child(1n+1){
     margin-top: 22px;
 
@@ -304,4 +319,5 @@ body {
     color: #000000;
     text-decoration: none;
     margin-top: 49px;
+    margin-bottom: 25px;
 }
