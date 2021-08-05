@@ -218,10 +218,11 @@ body {
     font-weight: 100;
     color: #000000;
     text-align: center;
+    margin-bottom: 100px;
 }
 
 .main {
-    margin: 99px 0 82px 0;
+    margin: 0 0 82px 0;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -324,9 +325,72 @@ body {
     background-color: #656565;
     color: white;
 }
+.container main:last-child{
+    margin-bottom: 80px;
+}
+
+.photo-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex: 1 1 auto;
+    margin: 0 auto;
+}
+.item1 {
+    flex: 1 1 auto;
+    max-width: 364px;
+    height: 100%;
+    padding: 10px;
+}
+.item1 img{
+    border: #e5e5e5 2px solid;
+    height: 560px;
+    width: 364px;
+    object-fit: cover;
+
+}
+.item1 img:first-child{
+    margin-bottom: 28px;
+    width: 360px;
+    height: 360px;
+}
+.item1 img{
+    border: #e5e5e5 2px solid;
+    max-height: 560px;
+    object-fit: cover;
+
+
+}
+.item1:nth-child(2){
+    display: flex;
+    flex-direction: column-reverse;
+}
+.item1 img:nth-child(2){
+    margin: 0 0 28px 0;
+    min-height: 560px;
+}
+.item1 img:nth-child(1){
+    margin: 0 0 28px 0;
+    min-height: 360px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.btn .info_button {
+    background-color: black;
+    color: #fff;
+
+}
+.btn .info_button:hover{
+    background-color: #656565;
+    color: white;
+}
+
+
 /*Adaptive for Header*/
 
-@media (max-width: 555px) {
+@media (max-width: 600px) {
 
     .header {
         margin-bottom: 10px;
@@ -357,6 +421,14 @@ body {
     .main2{
         margin-bottom: 20px;
     }
+    .photo-container{
+        justify-content: center;
+
+    }
+    .btn:hover{
+        background-color: #656565;
+        color: white;
+    }
 }
 @media (max-width: 1149px) {
     .main{
@@ -371,6 +443,16 @@ body {
     .slider-column1{
         padding-bottom: 20px;
     }
+    .photo-container .item1:last-child{
+        display: none;
+    }
+    .photo-container .item1 img{
+        width: 100%;
+    }
+    .photo-container .item1{
+        max-width: 100%;
+    }
 
 }
+
 /**/
