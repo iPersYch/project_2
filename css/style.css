@@ -85,7 +85,7 @@ body {
 .container {
     width: 100%;
     max-width: 1149px;
-    margin: 0 auto;
+    margin: 0 auto 50px;
 }
 
 .header {
@@ -386,7 +386,66 @@ body {
     background-color: #656565;
     color: white;
 }
+.fullWightContainer{
+    max-width: 2560px;
 
+    background-color: #ffe1bd;
+    margin: 0 auto 50px;
+}
+.fullWightContainer .container{
+    padding-top: 80px;
+
+}
+.workersPhoto{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.workersPhoto .item2{
+    max-width: 224px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    max-height: 708px;
+    flex: 1 1 auto;
+
+
+}
+.item2:nth-child(2){
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.workersPhoto .item2 img{
+    max-height: 168px;
+    max-width: 168px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.item2 .header{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 40px;
+    line-height: 42px;
+    font-weight: 700;
+    color: #000000;
+}
+.item2 p {
+    text-align: center;
+    margin-top: 10px;
+}
+.item2 a{
+    align-self: self-start;
+
+}
+.right-button img, .left-button img{
+    padding-top: 70px;
+}
 
 /*Adaptive for Header*/
 
